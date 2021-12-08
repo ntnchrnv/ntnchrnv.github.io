@@ -39,7 +39,7 @@
   width: 1920px;
   height: 88px;
   left: 0px;
-  top: 9012px;
+  top: 9013px;
   background: #F4F0E9;
   flex: none;
   order: 7;
@@ -71,8 +71,8 @@
   position: absolute;
   width: 1170px;
   height: 1245px;
-  left: 375px;
-  top: 2435px;
+  left: 374px;
+  top: 2436px;
   flex: none;
   order: 2;
   flex-grow: 0;
@@ -87,8 +87,8 @@
   position: absolute;
   width: 1170px;
   height: 1005px;
-  left: 375px;
-  top: 3815px;
+  left: 374px;
+  top: 3816px;
   flex: none;
   order: 3;
   flex-grow: 0;
@@ -103,8 +103,8 @@
   position: absolute;
   width: 1920px;
   height: 1222px;
-  left: 0px;
-  top: 4955px;
+  left: -1px;
+  top: 4956px;
   flex: none;
   order: 4;
   flex-grow: 0;
@@ -134,8 +134,8 @@
     position: absolute;
     width: 771px;
     height: 370px;
-    left: 574.5px;
-    top: 8507px;
+    left: 573.5px;
+    top: 8508px;
     flex: none;
     order: 6;
     flex-grow: 0;
@@ -195,8 +195,8 @@ flex-grow: 0;
 position: absolute;
 width: 181.84px;
 height: 30.24px;
-left: 0px;
-top: 0px;
+left: -1px;
+top: -1px;
 flex: none;
 order: 0;
 flex-grow: 0;
@@ -296,7 +296,7 @@ a.feedback
   position: absolute;
 width: 76px;
 height: 28px;
-left: 262px;
+left: 261px;
 top: 0px;
 
 /* p-normal */
@@ -363,7 +363,7 @@ a.tel
 position: absolute;
 width: 155px;
 height: 28px;
-left: 1013px;
+left: 1012px;
 top: 1.12px;
 
 /* p-normal */
@@ -372,7 +372,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 20px;
 line-height: 142%;
-letter-spacing: 0.005em;
+letter-spacing: 0.008em;
 /* or 28px */
 
 /* White */
@@ -397,7 +397,7 @@ position: absolute;
 width: 768px;
 height: 315px;
 left: 576px;
-top: 119px;
+top: 120px;
 
 /* H1 */
 font-family: Roboto;
@@ -427,7 +427,7 @@ position: absolute;
 width: 562px;
 height: 56px;
 left: 679px;
-top: 484px;
+top: 485px;
 
 /* p-normal */
 font-family: Roboto;
@@ -435,7 +435,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 20px;
 line-height: 142%;
-
+letter-spacing: -0.002em;
 /* or 28px */
 text-align: center;
 
@@ -460,8 +460,8 @@ padding: 0px 0px;
 position: absolute;
 width: 118px;
 height: 34px;
-left: 901px;
-top: 590px;
+left: 900px;
+top: 591px;
 
 /* White */
 background: #FFFFFF;
@@ -536,8 +536,8 @@ margin: 0px 0px;
   position: absolute;
 width: 473px;
 height: 73px;
-left: 113.5px;
-top: 0px;
+left: 112.5px;
+top: 1px;
 
 /* H2 */
 font-family: Roboto;
@@ -571,7 +571,7 @@ position: absolute;
 width: 700px;
 height: 34px;
 left: calc(50% - 700px/2);
-top: 108px;
+top: 109px;
 
 
 /* Inside Auto Layout */
@@ -591,7 +591,7 @@ padding: 0px;
 position: absolute;
 width: 137px;
 height: 34px;
-left: 0px;
+left: -1px;
 top: 0px;
 
 
@@ -612,7 +612,7 @@ padding: 0px;
 position: absolute;
 width: 117px;
 height: 34px;
-left: 167px;
+left: 166px;
 top: 0px;
 
 
@@ -633,7 +633,7 @@ padding: 0px;
 position: absolute;
 width: 87px;
 height: 34px;
-left: 314px;
+left: 313px;
 top: 0px;
 
 
@@ -654,7 +654,7 @@ padding: 0px;
 position: absolute;
 width: 86px;
 height: 34px;
-left: 431px;
+left: 430px;
 top: 0px;
 
 
@@ -675,7 +675,7 @@ margin: 0px 0px;
   position: absolute;
   width: 153px;
   height: 34px;
-  left: 547px;
+  left: 546px;
   top: 0px;
 
 
@@ -890,8 +890,8 @@ padding: 0px;
 position: absolute;
 width: 1170px;
 height: 1092px;
-left: 0px;
-top: 242px;
+left: -1px;
+top: 243px;
 
 
 /* Inside Auto Layout */
@@ -2901,6 +2901,7 @@ margin: 0px 0px;
 {
   text-decoration: none;
   color: #1B1F2B;
+  letter-spacing: -0.4em;
 }
 
 .licence_block label a:hover
@@ -2943,7 +2944,7 @@ width: 235px;
 height: 58px;
 left: 0px;
 top: 0px;
-
+letter-spacing: -0.002em;
 /* Green 400 */
 background: #286562;
 border-radius: 10px;
@@ -3908,7 +3909,7 @@ font-style: normal;
 font-weight: bold;
 font-size: 59px;
 line-height: 124%;
-
+letter-spacing: 0.001em;
 /* or 73px */
 text-align: center;
 
@@ -3937,7 +3938,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 20px;
 line-height: 142%;
-
+letter-spacing: -0.003em;
 /* or 28px */
 text-align: center;
 
@@ -4026,8 +4027,8 @@ background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0.01%, rgba(0, 0, 0, 0.2) 1
 {
   position: absolute;
 width: 554px;
-left: calc(50% - 554px/2 - 248px);
-top: 15.23%;
+left: 62px;
+top: 61px;
 bottom: 73.86%;
 
 /* H3 */
@@ -4054,14 +4055,14 @@ margin: 0px 0px
 {
 position: absolute;
 width: 556px;
-left: calc(50% - 554px/2 - 248px);
-top: 35.53%;
+left: 62px;
+top: 141px;
 bottom: 7.61%;
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 20px;
-line-height: 142%;
+line-height: 140%;
 color: #FFFFFF;
 flex: none;
 order: 1;
@@ -4092,8 +4093,8 @@ padding: 0px;
 position: absolute;
 width: 199px;
 height: 42px;
-left: 40px;
-top: 472px;
+left: 41px;
+top: 473px;
 border-radius: 50px;
 
 /* Inside Auto Layout */
@@ -4165,8 +4166,8 @@ padding: 0px;
 position: absolute;
 width: 322px;
 height: 28px;
-left: 788px;
-top: 479px;
+left: 789px;
+top: 480px;
 
 
 /* Inside Auto Layout */
@@ -4317,8 +4318,8 @@ top: 0px;
 {
   position: absolute;
 width: 554px;
-left: calc(50% - 554px/2 - 248px);
-top: 15.23%;
+left: 62px;
+top: 61px;
 bottom: 73.86%;
 
 /* H3 */
@@ -4345,8 +4346,8 @@ margin: 0px 0px;
 {
   position: absolute;
 width: 556px;
-left: calc(50% - 554px/2 - 248px);
-top: 35.53%;
+left: 62px;
+top: 141px;
 bottom: 36.04%;
 
 /* p-normal */
@@ -4354,7 +4355,7 @@ font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 20px;
-line-height: 142%;
+line-height: 140%;
 letter-spacing: -0.003em;
 /* or 28px */
 
@@ -4386,8 +4387,8 @@ padding: 0px;
 position: absolute;
 width: 224px;
 height: 28px;
-left: 886px;
-top: 479px;
+left: 887px;
+top: 480px;
 
 
 /* Inside Auto Layout */
@@ -4509,8 +4510,8 @@ top: 0px;
 {
   position: absolute;
 width: 554px;
-left: calc(50% - 554px/2 - 248px);
-top: 15.23%;
+left: 62px;
+top: 61px;
 bottom: 73.86%;
 
 /* H3 */
@@ -4537,8 +4538,8 @@ margin: 0px 0px;
 {
   position: absolute;
 width: 556px;
-left: calc(50% - 554px/2 - 248px);
-top: 35.53%;
+left: 62px;
+top: 141px;
 bottom: 36.04%;
 
 /* p-normal */
@@ -4546,7 +4547,7 @@ font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 20px;
-line-height: 142%;
+line-height: 140%;
 letter-spacing: -0.003em;
 /* or 28px */
 
@@ -4571,8 +4572,8 @@ padding: 0px;
 position: absolute;
 width: 343px;
 height: 28px;
-left: 767px;
-top: 479px;
+left: 768px;
+top: 480px;
 
 
 /* Inside Auto Layout */
@@ -4788,7 +4789,7 @@ margin: 0px 0px;
   position: absolute;
   width: 1168px;
   height: 28px;
-  left: 376px;
+  left: 375px;
   top: 30px;
 
 
@@ -4814,6 +4815,7 @@ margin: 0px 0px;
   font-size: 20px;
   line-height: 142%;
   white-space: nowrap;
+  letter-spacing: -0.003em;
 
   /* or 28px */
 

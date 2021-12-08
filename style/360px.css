@@ -756,6 +756,7 @@ align-self: stretch;
   left: 0px;
   top: 31px;
   font-size: 16px;
+  padding: 4px;
   }
 
   .email_form
@@ -793,6 +794,7 @@ align-self: stretch;
   height: 23px;
   left: 10px;
   top: 10px;
+  letter-spacing: -0.005em;
     }
 
   .tel_form
@@ -1176,6 +1178,7 @@ background: url('images/compile/mobile/Ellipse 2.png') no-repeat center;
   left: 0px;
   top: 36px;
   font-size: 16px;
+  letter-spacing: -0.012em;
     }
 
   .fb_1_btm_block img
@@ -1249,6 +1252,7 @@ background: url('images/compile/mobile/Ellipse 2.png') no-repeat center;
   left: 0px;
   top: 36px;
   font-size: 16px;
+  letter-spacing: -0.008em;
     }
 
 .fb_2_btm_block img
@@ -1461,7 +1465,7 @@ left: 0px;
 top: 0px;
 font-size: 34px;
 line-height: 112%;
-letter-spacing: 0.02em;
+letter-spacing: 0.022em;
 align-self: stretch;
 }
 
