@@ -72,7 +72,7 @@
         <div class="card_1_content">
           <div class="card_1_img"></div>
           <div class="card_1_title">
-            <h3>Путешествие в горы</h3>
+            <h3>Путешествие в&nbsp;горы</h3>
             <p>от 80 000 руб</p>
           </div>
           <div class="card_btm">
@@ -88,7 +88,7 @@
         <div class="card_2_content">
           <div class="card_2_img"></div>
           <div class="card_2_title">
-            <h3>Путешествие в горы</h3>
+            <h3>Путешествие в&nbsp;горы</h3>
             <p>от 80 000 руб</p>
           </div>
           <div class="card_btm">
@@ -104,7 +104,7 @@
         <div class="card_3_content">
           <div class="card_3_img"></div>
           <div class="card_3_title">
-            <h3>Путешествие в горы</h3>
+            <h3>Путешествие в&nbsp;горы</h3>
             <p>от 80 000 руб</p>
           </div>
           <div class="card_btm">
@@ -121,7 +121,7 @@
         <div class="card_4_content">
           <div class="card_4_img"></div>
           <div class="card_4_title">
-            <h3>Путешествие в горы</h3>
+            <h3>Путешествие в&nbsp;горы</h3>
             <p>от 80 000 руб</p>
           </div>
           <div class="card_btm">
@@ -137,7 +137,7 @@
         <div class="card_5_content">
           <div class="card_5_img"></div>
           <div class="card_5_title">
-            <h3>Путешествие в горы</h3>
+            <h3>Путешествие в&nbsp;горы</h3>
             <p>от 80 000 руб</p>
           </div>
           <div class="card_btm">
@@ -153,7 +153,7 @@
         <div class="card_6_content">
           <div class="card_6_img"></div>
           <div class="card_6_title">
-            <h3>Путешествие в горы</h3>
+            <h3>Путешествие в&nbsp;горы</h3>
             <p>от 80 000 руб</p>
           </div>
           <div class="card_btm">
@@ -173,63 +173,64 @@
 
       <div class="compile_top_block">
         <h2>Собери свой тур</h2>
-        <p>Идейные соображения высшего порядка, а также рамки и место обучения кадров</p>
+        <p>Идейные соображения высшего порядка, а&nbsp;также рамки и место обучения кадров</p>
       </div>
 
-      <div class="compile_form_block">
+      <form class="compile_form_block">
 
-        <form class="name_form" action="index.html" method="post">
+        <div class="name_form" action="index.html" method="post">
           <label for="name">Имя</label>
           <input type="text" name="name" placeholder="Введите Ваше имя">
-        </form>
+        </div>
 
-        <form class="dest_form" action="index.html" method="post">
+        <div class="dest_form" action="index.html" method="post">
           <label for="dest">Направление</label>
           <select type="text" name="dest">
-            <option value="2" disabled selected>Куда хотите ехать</option>
-            <option value="1">Направление2</option>
-            <option value="3">Направление3</option>
+            <option value="1" disabled selected >Куда хотите ехать</option>
+            <option value="2">Направление1</option>
+            <option value="3">Направление2</option>
+            <option value="4">Направление3</option>
           </select>
-        </form>
+        </div>
 
-        <form class="email_form" action="index.html" method="post">
+        <div class="email_form" action="index.html" method="post">
           <label for="email">Email</label>
-          <input type="text" name="email" placeholder="example@mail.ru">
-        </form>
+          <input type="text" name="email" placeholder="example@mail.com">
+        </div>
 
-        <form class="tel_form" action="index.html" method="post">
+        <div class="tel_form" action="index.html" method="post">
           <label for="tel">Телефон</label>
           <input type="text" name="tel" placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _">
-        </form>
+        </div>
 
-        <form class="date_from_form" action="index.html" method="post">
+        <div class="date_from_form" action="index.html" method="post">
           <label class="date_from_label" for="date_from">Дата от</label>
           <input class="date_from_input" type="text" name="date_from" placeholder="ДД.ММ.ГГГГ">
-        </form>
+        </div>
 
-        <form class="date_before_form" action="index.html" method="post">
+        <div class="date_before_form" action="index.html" method="post">
           <label for="date_before">Дата до</label>
           <input type="text" name="date_before" placeholder="ДД.ММ.ГГГГ">
-        </form>
+        </div>
 
-        <form class="comment_form" action="index.html" method="post">
+        <div class="comment_form" action="index.html" method="post">
           <label for="comment">Комментарий</label>
           <textarea name="comment" placeholder="">
           </textarea>
-        </form>
+        </div>
 
-        <div class="age_block">
-          <div class="age_form">
+        <div class="age_form">
+          <div class="age_block">
           <p>Вам есть 18 лет?</p>
           <div class="age_radio">
-            <form class="yes_block">
-            <input type="radio" name="yes">
+            <div class="yes_block">
+            <input type="radio" name="age" id="yes">
             <label for="yes">Да</label>
-          </form>
-          <form class="no_block">
-            <input type="radio" name="no">
+          </div>
+          <div class="no_block">
+            <input type="radio" name="age" id="no">
             <label for="no">Нет</label>
-          </form>
+          </div>
           </div>
         </div>
       </div>
@@ -238,12 +239,13 @@
         <input type="checkbox" name="licence">
         <label for="licence">Нажимая кнопку, я принимаю условия <a href="#">Лицензионного договора</a></label>
       </div>
+
       <div class="button_block">
-        <button class="find_btn" type="button" name="find">Найти тур</button>
+        <button class="find_btn" type="submit" name="find">Найти тур</button>
         <button class="reset_btn" type="reset" name="reset">Сбросить</button>
       </div>
 
-      </div>
+    </form>
 
     </div>
 
@@ -268,8 +270,10 @@
         </div>
 
         <div class="fb_2">
-          <p>Равным образом постоянный количественный рост и сфера нашей активности играет важную роль в формировании системы обучения кадров, соответствует насущным потребностям.
-Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм деятельности обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. Повседневная практика показывает, что реализация намеченных плановых заданий в значительной степени обуславливает создание модели развития.</p>
+          <div class="fb_2_p">
+            <p class="fb_2_p1">Равным образом постоянный количественный рост и сфера нашей активности играет важную роль в формировании системы обучения кадров, соответствует насущным потребностям.</p>
+            <p class="fb_2_p2">Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм деятельности обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. Повседневная практика показывает, что реализация намеченных плановых заданий в значительной степени обуславливает создание модели развития.</p>
+            </div>
           <div class="fb_2_btm_block">
             <div class="fb_2_btm_text_block">
               <h3>Павел</h3>
@@ -326,8 +330,8 @@
   <div class="st_card_1">
     <div class="st_card_1_img"></div>
     <div class="st_card_1_top">
-        <h3>Автостопом  в Стамбул</h3>
-        <div class="st_card_1_top_p">
+        <h3>Автостопом  в&nbsp;Стамбул</h3>
+        <div class="st_card_1_top_txt">
           <p>Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании новых предложений:</p>
         <ul>
           <li>вкусная еда</li>
@@ -336,21 +340,25 @@
         </ul>
         </div>
       </div>
+
       <div class="st_card_btm">
         <a href="#">Подробнее</a>
         <div class="st_card_arrow">
           <img src="style/images/choose_tour/Vector.png">
         </div>
       </div>
-
-
-  </div>
+      <div class="st_card_1_soc">
+        <a class="st_card_1_soc1" href="#" >instagram</a>
+        <a class="st_card_1_soc2" href="#" >facebook</a>
+        <a class="st_card_1_soc3" href="#" >YouTube</a>
+      </div>
+    </div>
 
   <div class="st_card_2">
     <div class="st_card_2_img"></div>
       <div class="st_card_2_top">
-        <h3>Автостопом  в Стамбул</h3>
-        <div class="st_card_2_top_p">
+        <h3>Автостопом  в&nbsp;Стамбул</h3>
+        <div class="st_card_2_top_txt">
           <p>Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании новых предложений:</p>
         </div>
       </div>
@@ -360,14 +368,18 @@
           <img src="style/images/choose_tour/Vector.png">
         </div>
       </div>
-  </div>
+      <div class="st_card_2_soc">
+        <a class="st_card_2_soc1" href="#">instagram</a>
+        <a class="st_card_2_soc2" href="#">ВКонтакте</a>
+        </div>
+      </div>
 
   <div class="st_card_3">
     <div class="st_card_3_img"></div>
       <div class="st_card_3_top">
-        <h3>Автостопом  в Стамбул</h3>
-        <div class="st_card_3_top_p">
-          <p>Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании новых предложений:</p>
+        <h3>Автостопом  в&nbsp;Стамбул</h3>
+        <div class="st_card_3_top_txt">
+          <p style="margin-top:0px">Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании новых предложений:</p>
         </div>
       </div>
       <div class="st_card_btm">
@@ -375,6 +387,11 @@
         <div class="st_card_arrow">
           <img src="style/images/choose_tour/Vector.png">
         </div>
+      </div>
+      <div class="st_card_3_soc">
+        <a class="st_card_3_soc1" href="#">instagram</a>
+        <a class="st_card_3_soc2" href="#">facebook</a>
+        <a class="st_card_3_soc3" href="#">ВКонтакте</a>
       </div>
   </div>
 
@@ -385,7 +402,7 @@
   <div class="cta_img"></div>
   <div class="cta_txt_block">
     <h3>Пора в путешествие вместе с нами!</h3>
-    <p>Напиши на почту и узнай подробности  на <a href="mailto:yourtour@gmail.com">yourtour@gmail.com</a></p>
+    <p>Напиши на почту и узнай подробности на <a href="mailto:yourtour@gmail.com">yourtour@gmail.com</a></p>
   </div>
 </div>
 
