@@ -141,6 +141,12 @@ left: 123px;
 top: 315px;
 }
 
+.header_find_btn:hover
+{background-color: inherit;}
+
+.header_find_btn:active
+{background-color: inherit;}
+
 .header_find_btn a
 {
 width: 74px;
@@ -1547,7 +1553,7 @@ font-size: 16px;
 .st_card_1_top_txt p
 {
   line-height: 23px;
-  letter-spacing: 0.112em;
+  letter-spacing: 0.012em;
 }
 
 .st_card_1_top_txt ul
