@@ -92,7 +92,7 @@ top: 32.5px;
 width: 133px;
 height: 22px;
 left: 0px;
-top: 0.5px;
+top: -0.5px;
 background: url('images/header/360px/YourTour.png')
 }
 
@@ -129,6 +129,8 @@ height: 69px;
 left: 25px;
 top: 206px;
 font-size: 16px;
+line-height: 143%;
+letter-spacing: 0.002em;
 }
 
 .header_find_btn
@@ -667,7 +669,7 @@ width: 318px;
 height: 38px;
 font-size: 34px;
 line-height: 112%;
-letter-spacing: 0.02em;
+letter-spacing: 0.025em;
 align-self: stretch;
 
 }
@@ -794,7 +796,7 @@ align-self: stretch;
   height: 23px;
   left: 10px;
   top: 10px;
-  letter-spacing: -0.005em;
+  letter-spacing: -0.006em;
     }
 
   .tel_form
@@ -1542,6 +1544,19 @@ bottom: 0%;
 font-size: 16px;
 }
 
+.st_card_1_top_txt p
+{
+  line-height: 23px;
+  letter-spacing: 0.112em;
+}
+
+.st_card_1_top_txt ul
+{
+  padding-left: 24px;
+  margin-top: 24px;
+  letter-spacing: 0.042px;
+}
+
 .st_card_btm
 {
 width: 123px;
@@ -1641,6 +1656,12 @@ bottom: 0%;
 font-size: 16px;
 }
 
+.st_card_2_top_txt p
+{
+  line-height: 23px;
+  letter-spacing: 0.192px;
+}
+
 .st_card_3
 {
   position: absolute;
@@ -1700,6 +1721,12 @@ bottom: 0%;
 font-size: 16px;
 }
 
+.st_card_3_top_txt
+{
+  line-height: 23px;
+  letter-spacing: 0.112px;
+}
+
 .cta_img
 {
 position: absolute;
@@ -1726,7 +1753,7 @@ top: 163px;
 width: 291px;
 height: 56px;
 left: 0px;
-top: 0px;
+top: 1px;
 font-weight: bold;
 font-size: 23px;
 line-height: 120%;
@@ -1783,6 +1810,7 @@ top: 0px;
 font-size: 16px;
 line-height: 142%;
 white-space: nowrap;
+letter-spacing: 0.01em;
 }
 
 .footer_soc_block
