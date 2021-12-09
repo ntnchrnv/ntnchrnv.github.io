@@ -791,12 +791,12 @@ flex-grow: 0;
 margin: 0px 0px;
 }
 
-.exp_block:hover
+.exp_block a:hover
 {
   border-bottom: 2px solid #1B1F2B;
 }
 
-.exp_block:active
+.exp_block a:active
 {
   color: #EFA501;
   border-bottom: 2px solid #EFA501;
