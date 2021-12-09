@@ -1060,6 +1060,17 @@ background: url('images/compile/mobile/Ellipse 2.png') no-repeat center;
   letter-spacing: normal;
   }
 
+.licence_block label a
+{
+  letter-spacing: 0.013em;
+  line-height: 23px;
+}
+
+.licence_block label a:hover
+{text-decoration: none;}
+
+.licence_block label a:active
+{color: inherit;}
   .button_block
   {
   justify-content: space-between;
