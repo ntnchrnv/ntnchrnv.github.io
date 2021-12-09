@@ -1010,7 +1010,7 @@ letter-spacing: normal;
   position: absolute;
 width: 270px;
 height: 24px;
-left: 0px;
+left: 1px;
 top: 102px;
 
 /* p-small */
@@ -1216,7 +1216,7 @@ margin: 0px 0px;
   position: absolute;
 width: 270px;
 height: 24px;
-left: 0px;
+left: 1px;
 top: 102px;
 
 /* p-small */
@@ -1350,7 +1350,7 @@ margin: 0px 0px;
   position: absolute;
 width: 270px;
 height: 24px;
-left: 0px;
+left: 1px;
 top: 102px;
 
 /* p-small */
@@ -1485,7 +1485,7 @@ margin: 0px 0px;
   position: absolute;
 width: 270px;
 height: 24px;
-left: 0px;
+left: 1px;
 top: 102px;
 
 /* p-small */
@@ -1619,7 +1619,7 @@ margin: 0px 0px;
   position: absolute;
 width: 270px;
 height: 24px;
-left: 0px;
+left: 1px;
 top: 102px;
 
 /* p-small */
@@ -1753,7 +1753,7 @@ margin: 0px 0px;
   position: absolute;
 width: 270px;
 height: 24px;
-left: 0px;
+left: 1px;
 top: 102px;
 
 /* p-small */
@@ -4026,7 +4026,7 @@ background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0.01%, rgba(0, 0, 0, 0.2) 1
 {
   position: absolute;
 width: 554px;
-left: 62px;
+left: 61px;
 top: 61px;
 bottom: 73.86%;
 
@@ -4054,32 +4054,34 @@ margin: 0px 0px
 {
 position: absolute;
 width: 556px;
-left: 62px;
+left: 61px;
 top: 141px;
 bottom: 7.61%;
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 20px;
-line-height: 140%;
 color: #FFFFFF;
 flex: none;
 order: 1;
 flex-grow: 0;
 margin: 0px 0px;
-letter-spacing: -0.003em;
 }
 
 .st_card_1_top_txt p
 {
   margin-top: 0px;
   margin-bottom: 0px;
+  line-height: 28px;
+  letter-spacing: -0.003em;
 }
 
 .st_card_1_top_txt ul
 {
   padding-left: 30px;
   margin-top: 26px;
+  line-height: 28.5px;
+  letter-spacing: -0.19px;
 }
 
 .st_card_btm
@@ -4165,7 +4167,7 @@ padding: 0px;
 position: absolute;
 width: 322px;
 height: 28px;
-left: 789px;
+left: 788px;
 top: 480px;
 
 
@@ -4317,7 +4319,7 @@ top: 0px;
 {
   position: absolute;
 width: 554px;
-left: 62px;
+left: 61px;
 top: 61px;
 bottom: 73.86%;
 
@@ -4345,7 +4347,7 @@ margin: 0px 0px;
 {
   position: absolute;
 width: 556px;
-left: 62px;
+left: 61px;
 top: 141px;
 bottom: 36.04%;
 
@@ -4386,7 +4388,7 @@ padding: 0px;
 position: absolute;
 width: 224px;
 height: 28px;
-left: 887px;
+left: 885px;
 top: 480px;
 
 
@@ -4509,7 +4511,7 @@ top: 0px;
 {
   position: absolute;
 width: 554px;
-left: 62px;
+left: 61px;
 top: 61px;
 bottom: 73.86%;
 
@@ -4537,7 +4539,7 @@ margin: 0px 0px;
 {
   position: absolute;
 width: 556px;
-left: 62px;
+left: 61px;
 top: 141px;
 bottom: 36.04%;
 
@@ -4571,7 +4573,7 @@ padding: 0px;
 position: absolute;
 width: 343px;
 height: 28px;
-left: 768px;
+left: 767px;
 top: 480px;
 
 
@@ -4766,6 +4768,7 @@ margin: 0px 0px;
 {
   color: Black;
   text-decoration: none;
+  letter-spacing: 0.07px;
 }
 
 .cta_txt_block a:hover
