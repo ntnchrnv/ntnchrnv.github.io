@@ -2145,7 +2145,6 @@ line-height: 142%;
 border: 1px solid #F4F0E9;
 box-sizing: border-box;
 border-radius: 10px;
-letter-spacing: -0.012em;
 /* Inside Auto Layout */
 flex: none;
 order: 1;
@@ -2164,7 +2163,7 @@ top: 20px;
 
 /* Gray 300 */
 color: #A6A6A6;
-
+letter-spacing: -0.012em;
 /* Inside Auto Layout */
 flex: none;
 order: 0;
