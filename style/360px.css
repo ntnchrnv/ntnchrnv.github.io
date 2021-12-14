@@ -142,7 +142,7 @@ top: 315px;
 }
 
 .header_find_btn:hover
-{background-color:  #FFFFFF}
+{background-color:  #FFFFFF;}
 
 .header_find_btn:active
 {background-color:  #FFFFFF}
@@ -153,6 +153,9 @@ width: 74px;
 height: 23px;
 font-size: 16px;
 }
+
+.header_find_btn a:hover
+{color: inherit;}
 
 .choose_top_block
 {
@@ -1857,7 +1860,8 @@ top: 1.5px;
 
 .insta_img
 {
-background:linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 39.9%), linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('images/footer/360px/insta.png');
+left: 37.46%;
+background:url('images/footer/360px/insta.png');
 }
 
 .insta a

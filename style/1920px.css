@@ -148,7 +148,7 @@
   justify-content: center;
   align-items: center;
   z-index: 1;
-  position: fixed;
+  position: absolute;
   width: 1920px;
   height: 88px;
   left: 0px;
@@ -508,6 +508,9 @@ margin: 0px 0px;
 
 .header_find_btn:active
 {background-color:  #F8E6BE;}
+
+.header_find_btn a:hover
+{color: #FFFFFF;}
 
 .choose_top_block
 {
@@ -2559,6 +2562,7 @@ line-height: 142%;
 border: 1px solid #F4F0E9;
 box-sizing: border-box;
 border-radius: 10px;
+resize: none;
 
 /* Inside Auto Layout */
 flex: none;
@@ -2947,6 +2951,7 @@ letter-spacing: -0.002em;
 /* Green 400 */
 background: #286562;
 border-radius: 10px;
+border-width: 0px;
 
 /* p-normal */
 font-family: Roboto;
@@ -2989,6 +2994,7 @@ top: 0px;
 /* Green 100 */
 background: #E0F0E5;
 border-radius: 10px;
+border-width: 0px;
 
 /* p-normal */
 font-family: Roboto;
@@ -4198,13 +4204,15 @@ text-decoration: none;
   /* White */
   color: #FFFFFF;
 
-
   /* Inside Auto Layout */
   flex: none;
   order: 0;
   flex-grow: 0;
   margin: 0px 0px;
 }
+
+.st_card_1_soc1:hover
+{border-bottom: 1px solid #FFFFFF;}
 
 .st_card_1_soc2
 {
@@ -4234,6 +4242,10 @@ text-decoration: none;
   margin: 0px 0px;
 }
 
+.st_card_1_soc2:hover
+{border-bottom: 1px solid #FFFFFF;}
+
+
 .st_card_1_soc3
 {
   position: absolute;
@@ -4262,6 +4274,10 @@ text-decoration: none;
   flex-grow: 0;
   margin: 0px 0px;
 }
+
+.st_card_1_soc3:hover
+{border-bottom: 1px solid #FFFFFF;}
+
 
 .st_card_2
 {
@@ -4427,6 +4443,11 @@ text-decoration: none;
   flex-grow: 0;
   margin: 0px 0px;
 }
+
+.st_card_2_soc1:hover
+{border-bottom: 1px solid #FFFFFF;}
+
+
 .st_card_2_soc2
 {
   position: absolute;
@@ -4454,6 +4475,9 @@ text-decoration: none;
   flex-grow: 0;
   margin: 0px 0px;
 }
+
+.st_card_2_soc2:hover
+{border-bottom: 1px solid #FFFFFF;}
 
 .st_card_3
 {
@@ -4612,6 +4636,9 @@ flex-grow: 0;
 margin: 0px 0px;
 }
 
+.st_card_3_soc1:hover
+{border-bottom: 1px solid #FFFFFF;}
+
 .st_card_3_soc2
 {
   position: absolute;
@@ -4640,6 +4667,9 @@ flex-grow: 0;
 margin: 0px 0px;
 }
 
+.st_card_3_soc2:hover
+{border-bottom: 1px solid #FFFFFF;}
+
 .st_card_3_soc3
 {
   position: absolute;
@@ -4667,6 +4697,10 @@ order: 2;
 flex-grow: 0;
 margin: 0px 0px;
 }
+
+.st_card_3_soc3:hover
+{border-bottom: 1px solid #FFFFFF;}
+
 
 .cta_img
 {
