@@ -71,6 +71,12 @@ width: 360px;
 height: 88px;
 }
 
+.change_background
+{
+  width: 360px;
+  height: 88px;
+}
+
 .header_btm_block
 {
 width: 360px;
@@ -96,6 +102,15 @@ top: -0.5px;
 background: url('images/header/360px/YourTour.png')
 }
 
+.logo_black
+{
+  width: 133px;
+  height: 22px;
+  left: 0px;
+  top: -0.5px;
+background: url('images/header/360px/YourTour_black.png')
+}
+
 nav
 {
 display: none;
@@ -112,6 +127,21 @@ order: 1;
 letter-spacing: normal;
 }
 
+.tel_black
+{
+  width: 124px;
+  height: 23px;
+  left: 196px;
+  top: 0px;
+  font-size: 16px;
+  order: 1;
+  letter-spacing: normal;
+}
+
+.tel_black:hover
+{
+  border-bottom: none;
+}
 h1
 {
 width: 360px;
@@ -155,7 +185,7 @@ font-size: 16px;
 }
 
 .header_find_btn a:hover
-{color: inherit;}
+{color: #1B1F2B;}
 
 .choose_top_block
 {

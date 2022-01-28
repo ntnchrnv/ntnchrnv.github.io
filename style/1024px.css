@@ -72,6 +72,12 @@ width: 1024px;
 height: 88px;
 }
 
+.change_background
+{
+  width: 1024px;
+  height: 88px;
+}
+
 .header_btm_block
 {
 width: 1024px;
@@ -97,6 +103,15 @@ top: 0px;
 background: url('images/header/1024px/YourTour.png')
 }
 
+.logo_black
+{
+  width: 181.84px;
+  height: 30.24px;
+  left: 0px;
+  top: 0px;
+  background: url('images/header/1024px/YourTour_black.png')
+}
+
 nav
 {
 width: 408px;
@@ -107,6 +122,8 @@ top: 1.12px;
 
 .tour:hover
 {border-bottom: none;}
+.tour_black:hover
+{border-bottom: none;}
 
 a.compile
 {
@@ -116,6 +133,8 @@ left: 78px;
 top: 0px;
 }
 .compile:hover
+{border-bottom: none;}
+.compile_black:hover
 {border-bottom: none;}
 
 a.feedback
@@ -128,6 +147,8 @@ top: 0px;
 
 .feedback:hover
 {border-bottom: none;}
+.feedback_black:hover
+{border-bottom: none;}
 
 a.stories
 {
@@ -138,6 +159,8 @@ top: 0px;
 }
 
 .stories:hover
+{border-bottom: none;}
+.stories_black:hover
 {border-bottom: none;}
 
 a.tel
@@ -152,6 +175,8 @@ order: 2;
 }
 
 .tel:hover
+{border-bottom: none;}
+.tel_black:hover
 {border-bottom: none;}
 
 h1
