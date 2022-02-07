@@ -5,9 +5,11 @@ const compile=document.querySelector('.compile');
 const feedback=document.querySelector('.feedback');
 const stories=document.querySelector('.stories');
 const tel=document.querySelector('.tel');
+const selectForm=document.querySelector('.not_yet_select');
 
 window.onscroll = function ()
-{let scrollCount=document.documentElement.scrollTop;
+{
+  let scrollCount=document.documentElement.scrollTop;
   if (scrollCount>450)
   {
     logoBlock.setAttribute('class','logo_black');
@@ -28,4 +30,9 @@ window.onscroll = function ()
     stories.setAttribute('class','stories');
     tel.setAttribute('class','tel');
   }
+};
+
+selectForm.onchange=function()
+{
+  selectForm.setAttribute('class','selected');
 };

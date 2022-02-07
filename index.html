@@ -181,42 +181,42 @@
 
         <div class="name_form" action="index.html" method="post">
           <label for="name">Имя</label>
-          <input type="text" name="name" placeholder="Введите Ваше имя">
+          <input type="text" name="name" placeholder="Введите Ваше имя" required>
         </div>
 
         <div class="dest_form" action="index.html" method="post">
           <label for="dest">Направление</label>
-          <select type="text" name="dest">
-            <option value="1" disabled selected >Куда хотите ехать</option>
-            <option value="2">Направление1</option>
-            <option value="3">Направление2</option>
-            <option value="4">Направление3</option>
+          <select class="not_yet_select" type="text" name="dest" required>
+            <option value="where_to_go" selected disabled>Куда хотите ехать</option>
+            <option value="dest1" >Направление1</option>
+            <option value="dest2" >Направление2</option>
+            <option value="dest3" >Направление3</option>
           </select>
         </div>
 
         <div class="email_form" action="index.html" method="post">
           <label for="email">Email</label>
-          <input type="text" name="email" placeholder="example@mail.com">
+          <input type="text" name="email" placeholder="example@mail.com" required>
         </div>
 
         <div class="tel_form" action="index.html" method="post">
           <label for="tel">Телефон</label>
-          <input type="text" name="tel" placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _">
+          <input type="text" name="tel" placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _" required>
         </div>
 
         <div class="date_from_form" action="index.html" method="post">
           <label class="date_from_label" for="date_from">Дата от</label>
-          <input class="date_from_input" type="text" name="date_from" placeholder="ДД.ММ.ГГГГ">
+          <input class="date_from_input" type="text" name="date_from" placeholder="ДД.ММ.ГГГГ" required>
         </div>
 
         <div class="date_before_form" action="index.html" method="post">
           <label for="date_before">Дата до</label>
-          <input type="text" name="date_before" placeholder="ДД.ММ.ГГГГ">
+          <input type="text" name="date_before" placeholder="ДД.ММ.ГГГГ" required>
         </div>
 
         <div class="comment_form" action="index.html" method="post">
           <label for="comment">Комментарий</label>
-          <textarea name="comment" placeholder="">
+          <textarea name="comment" placeholder="" required>
           </textarea>
         </div>
 
@@ -225,11 +225,11 @@
           <p>Вам есть 18 лет?</p>
           <div class="age_radio">
             <div class="yes_block">
-            <input type="radio" name="age" id="yes">
+            <input type="radio" name="age" id="yes" required>
             <label for="yes">Да</label>
           </div>
           <div class="no_block">
-            <input type="radio" name="age" id="no">
+            <input type="radio" name="age" id="no" required>
             <label for="no">Нет</label>
           </div>
           </div>
@@ -237,7 +237,7 @@
       </div>
 
       <div class="licence_block">
-        <input type="checkbox" name="licence">
+        <input type="checkbox" name="licence" required>
         <label for="licence">Нажимая кнопку, я принимаю условия <a href="#">Лицензионного договора</a></label>
       </div>
 
