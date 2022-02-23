@@ -3171,7 +3171,9 @@ margin: 0px 0px;
   display: flex;
 flex-direction: row;
 justify-content: center;
+-webkit-justify-content:center;
 align-items: center;
+ -webkit-align-items: center;
 
 
 position: absolute;
